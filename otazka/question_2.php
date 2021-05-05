@@ -18,7 +18,7 @@
     </div>
 
     <label for="submit-question"></label>
-    <button name="submit-question" >Submit</button>
+    <button disabled name="submit-question" id="submit-question" >Submit</button>
 
 </form>
 <script src="script/script.js"></script>
