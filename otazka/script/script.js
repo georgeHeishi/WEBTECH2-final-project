@@ -23,8 +23,6 @@ cnt_answers.addEventListener("change",function (){
     }
 })
 
-
-
 submit.addEventListener("click",function (){
     let answers = document.getElementsByClassName("answer");
     let correct_answer_element = document.getElementsByClassName("correct");
@@ -44,7 +42,4 @@ submit.addEventListener("click",function (){
     });
 
     let Json = {"question_type":"question_2","question":question.value,"correct":correct_answer,"incorrect":incorrect_answer};
-
-
 })
-
