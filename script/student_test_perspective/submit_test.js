@@ -1,6 +1,5 @@
 document.getElementById("submit_test").addEventListener("click",function (){
     submitCompletedTest();
-    window.location.assign("logout.php");
 })
 
 function submitCompletedTest(){
@@ -111,6 +110,7 @@ function fetchEvaluateTest(test) {
         .then((data) => {
             if (!data.error) {
                 console.log(data)
+                window.location.assign("logout.php");
             } else {
 
             }
